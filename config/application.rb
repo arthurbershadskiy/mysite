@@ -25,6 +25,8 @@ module Mysite
     
     # Test framework
     config.generators.test_framework false
-    
+    config.action_dispatch.default_headers = {
+		    'X-Frame-Options' => 'ALLOWALL'
+    }
   end
 end
