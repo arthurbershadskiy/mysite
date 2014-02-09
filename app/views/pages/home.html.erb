@@ -1,2 +1,22 @@
 <% title("Home Page") %>
 <h1>Welcome! <br><small>Here's some stuff I did</small></h1>
+
+<% @projects.each  do |project| %>
+  <table class="header-table">
+    <tr class='proj_row'>
+      <td>
+   <div class='proj_image'>
+    <%= image_tag project.img_url %>
+   </div>
+    <div class='proj_title'>
+      <%= project.title %>
+    </div>
+    <div class='proj_description'>
+      <%= project.description %>
+    <br><br>
+      <%= (link_to button_tag("Visit #{project.title}", class: 'btn btn-success'), project.link, target: '_blank') %>
+    </div>
+      </td>
+    </tr>
+  </table>
+<% end %>

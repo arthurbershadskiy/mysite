@@ -435,3 +435,32 @@ td {
  padding-top: 4in;
 }
 
+.proj_image {
+  float: left;
+}
+
+.proj_description {
+  width: 50%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  display: inline-block;
+  vertical-align: middle;
+
+
+}
+
+.proj_title {
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+  text-decoration: underline;
+  padding-bottom: .25in;
+
+}
+
+.proj_row {
+  border-top: thick double;
+  border-bottom: thick double;
+
+}
