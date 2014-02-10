@@ -9,7 +9,7 @@ ContactUs.setup do |config|
   config.mailer_from = nil
 
   # Configure the e-mail address which should receive the contact form email notifications.
-  config.mailer_to = "arthurbershadskiy@gmail.com"
+  config.mailer_to = "a1e41cc85a6b90382103@cloudmailin.net"
 
   # ==> Form Configuration
 
