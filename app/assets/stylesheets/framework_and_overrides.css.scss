@@ -350,6 +350,7 @@ html,body{
 #wrap{
   min-height: 100%;
   padding-bottom: 120px;
+
 }
 
 img{
@@ -463,4 +464,16 @@ td {
   border-top: thick double;
   border-bottom: thick double;
 
+}
+
+.col-sm-12 {
+  background-color: lightcyan;
+}
+
+.header-table {
+  background-color: lightcyan;
+}
+
+body {
+  background-color: lightcyan;
 }

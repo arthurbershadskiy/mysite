@@ -1,4 +1,4 @@
-Projects.create(img_url: "sportsmonkey.jpg", title:'Sportsmonkey', link:'http://sportsmonkey.co.nf/', description:'Sportsmonkey is a mock website designed for all your sports needs. Whether you\'re looking for the latest scores of your favorite teams or updates on players, Sportsmonkey has it all.
+Projects.create(img_url: "sportsmonkey.png", title:'Sportsmonkey', link:'http://sportsmonkey.co.nf/', description:'Sportsmonkey is a mock website designed for all your sports needs. Whether you\'re looking for the latest scores of your favorite teams or updates on players, Sportsmonkey has it all.
 																																																				It was designed from the ground up using HTML, CSS, MySQL, and PHP as a class project.')
 
-Projects.create(img_url:"depot.jpg", title:"Depot", link:'depot-scaffold.herokuapp.com', description:"This Ruby On Rails app is built from the Agile Web Development book. Includes (or will include) functionality such as shopping carts, catalogs, and much more.")
+Projects.create(img_url:"depot.png", title:"Depot", link:'depot-scaffold.herokuapp.com', description:"This Ruby On Rails app is built from the Agile Web Development book. Includes (or will include) functionality such as shopping carts, catalogs, and much more.")
