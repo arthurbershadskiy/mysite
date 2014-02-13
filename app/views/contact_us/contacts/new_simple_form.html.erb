@@ -1,0 +1,21 @@
+<div class='contact-form'>
+  <h2><%= t('.contact_us') %></h2>
+<%= simple_form_for @contact, :url => contact_us_path do |f| %>
+  <%= f.input :name, :label => t('.name') if ContactUs.require_name %>
+  <%= f.input :email, :label => t('.email') %>
+  <%= f.input :subject, :label => t('.subject') if ContactUs.require_subject %>
+  <%= f.input :message, :as => :text, :label => t('.message') %>
+  <%= f.button :submit, :value => t('.submit'), :alt => t('.submit'), :id => 'contact_us_contact_submit', :title => t('.submit') %>
+<% end %>
+</div>
+
+<div class="contact-desc">
+<h4><p>This website is under constant renovation as I learn more stuff.</p></h4> <br/>
+  <p>It doesn't look great so I'm open for any and all suggestions you might have. <br>
+     Want to send me a complaint or show me a picture of a cute sloth? Great! <br>
+     Just fill out that form and press the button.</p>
+  <div class='sloth-pic'>
+    <p><small>Seriously, look at this sloth:</small></p> <br/>
+     <%= image_tag 'sloth.jpg' %>
+  </div>
+</div>
