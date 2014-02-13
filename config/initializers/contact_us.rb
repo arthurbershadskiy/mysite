@@ -14,15 +14,15 @@ ContactUs.setup do |config|
   # ==> Form Configuration
 
   # Configure the form to ask for the users name.
-  config.require_name = false
+  config.require_name = true
 
   # Configure the form to ask for a subject.
-  config.require_subject = false
+  config.require_subject = true
 
   # Configure the form gem to use.
   # Example:
   # config.form_gem = 'formtastic'
-  config.form_gem = nil
+  config.form_gem = 'simple_form'
 
   # Configure the redirect URL after a successful submission
   config.success_redirect = '/'
