@@ -9,7 +9,7 @@ ContactUs.setup do |config|
   config.mailer_from = nil
 
   # Configure the e-mail address which should receive the contact form email notifications.
-  config.mailer_to = "a1e41cc85a6b90382103@cloudmailin.net"
+  config.mailer_to = "arthurbershadskiy@gmail.com"
 
   # ==> Form Configuration
 
@@ -17,12 +17,12 @@ ContactUs.setup do |config|
   config.require_name = false
 
   # Configure the form to ask for a subject.
-  config.require_subject = true
+  config.require_subject = false
 
   # Configure the form gem to use.
   # Example:
   # config.form_gem = 'formtastic'
-  config.form_gem = 'simple_form'
+  config.form_gem = nil
 
   # Configure the redirect URL after a successful submission
   config.success_redirect = '/'
