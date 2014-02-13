@@ -4,6 +4,6 @@ Mysite::Application.routes.draw do
   get '/contact', to:'pages#contact', as: 'contact'
   get '/about', to:'pages#about', as: 'about'
   get "/home", to: "pages#home", as: "home"
-  resources "contacts", only: [:new, :create]
+
 	resources :projects
 end
