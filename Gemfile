@@ -11,6 +11,7 @@ gem 'bcrypt-ruby', '~> 3.1.2'
 gem 'contact_us', '~> 0.5.1'
 gem 'simple_form'
 gem 'formtastic'
+gem 'mail_form'
 
 group :doc do
   gem 'sdoc', require: false
