@@ -89,7 +89,6 @@ Mysite::Application.configure do
     domain: 'gmail.com',
     authentication: "plain",
     enable_starttls_auto: true,
-    user_name: 'arthurbershadskiy@gmail.com',
-    password: '@rthuR12'
+
   }
 end
