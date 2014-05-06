@@ -12,7 +12,7 @@ gem 'contact_us', '~> 0.5.1'
 gem 'simple_form'
 gem 'formtastic'
 gem 'mail_form'
-
+gem 'newrelic_rpm'
 group :doc do
   gem 'sdoc', require: false
 end
