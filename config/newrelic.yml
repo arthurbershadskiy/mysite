@@ -3,9 +3,9 @@
 # Ruby, Java, .NET, PHP, and Python applications with deep visibility and low overhead.
 # For more information, visit www.newrelic.com.
 #
-# Generated May 06, 2014
+# Generated May 07, 2014
 #
-# This configuration file is custom generated for Rowdy Ronda
+# This configuration file is custom generated for Digitech Inc.
 
 
 # Here are the settings that are common to all environments
@@ -15,7 +15,7 @@ common: &default_settings
   # You must specify the license key associated with your New Relic
   # account.  This key binds your Agent's data to your account in the
   # New Relic service.
-  license_key: 'cf071a95a20517f30d07982d18f98de33dcb7cda'
+  license_key: '39653c3f690e757fb3048b54b332821b6758adf2'
 
   # Agent Enabled (Ruby/Rails Only)
   # Use this setting to force the agent to run or not run.
