@@ -1,3 +1,4 @@
+Projects.create(img_url: "helpinghand.png", title: "Helping Hand", link:'http://helpinghand-101.herokuapp.com', description: "Helping Hand is a website designed for making philanthropy more accessible. Easily allows organizers to find volunteers and allows anyone to quickly find a volunteer opportunity nearby. This website is under constant improvement and will (hopefully) eventually be developed enough to be taken into beta.")
 Projects.create(img_url: "sportsmonkey.png", title:'Sportsmonkey', link:'http://sportsmonkey.co.nf/', description:'Sportsmonkey is a mock website designed for all your sports needs. Whether you\'re looking for the latest scores of your favorite teams or updates on players, Sportsmonkey has it all.
 																																																				It was designed from the ground up using HTML, CSS, MySQL, and PHP as a class project.')
 
